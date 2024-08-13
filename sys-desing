@@ -1,0 +1,77 @@
+1. Foundations of System Design
+Basic Concepts: Understand what system design is and why it's important.
+Scalability: Horizontal vs. Vertical scaling.
+Reliability: Fault tolerance, replication, data backups.
+Availability: High availability, disaster recovery, failover strategies.
+2. Networking Basics
+IP Addressing and Subnetting.
+Load Balancing: Types (DNS-based, Hardware, Software), algorithms (Round Robin, Least Connections).
+CDNs: Content delivery networks, caching strategies.
+DNS: Domain Name System, how DNS works.
+3. System Design Patterns
+Microservices vs. Monoliths: Pros and cons.
+Service-Oriented Architecture (SOA).
+Event-Driven Architecture.
+Command Query Responsibility Segregation (CQRS).
+API Gateway.
+4. Data Storage and Management
+Database Design: Relational vs. NoSQL, ACID vs. BASE properties.
+Indexing and Query Optimization.
+Data Partitioning and Sharding.
+Caching: Strategies, tools like Redis, Memcached.
+Data Consistency Models: Strong vs. Eventual consistency.
+5. Designing Large-Scale Systems
+Designing for Scalability: Load balancing, data sharding, replication.
+High Availability: Redundancy, failover strategies.
+Performance Optimization: Caching, indexing, query optimization.
+Rate Limiting: Strategies, importance.
+6. System Components
+Web Servers: Apache, NGINX, how they work.
+Application Servers: Servlets, how application servers work.
+Message Queues: Kafka, RabbitMQ, ActiveMQ.
+Search Engines: Elasticsearch, Solr.
+Content Delivery Networks (CDNs): How they work, benefits.
+7. Distributed Systems
+Distributed Data Storage: HDFS, Cassandra.
+Consistency Models: CAP theorem, eventual consistency.
+Consensus Algorithms: Paxos, Raft.
+Distributed Caching: Memcached, Redis.
+MapReduce and Distributed Computing.
+8. Security Considerations
+Authentication and Authorization: OAuth, JWT, SSO.
+Data Encryption: In-transit, at-rest, TLS/SSL.
+Rate Limiting and Throttling.
+API Security: Rate limiting, input validation.
+Threat Modelling: Identify and mitigate security risks.
+9. API Design
+RESTful API Design: Principles, best practices.
+GraphQL: When and how to use.
+gRPC: How it compares to REST and GraphQL.
+Versioning and Documentation.
+Rate Limiting and Throttling.
+10. Case Studies and Real-World Design Problems
+Design a URL Shortener: Handling millions of requests, ensuring uniqueness.
+Design a Distributed Cache: Strategies, eviction policies.
+Design a Social Media Platform: Feed generation, notifications.
+Design an E-commerce System: Catalog management, order processing.
+Design a Video Streaming Service: Data storage, content delivery, recommendations.
+11. Non-Functional Requirements
+Latency and Throughput: Understanding and optimizing.
+Observability: Monitoring, logging, tracing.
+Scalability: Horizontal vs. Vertical scaling.
+Cost Efficiency: Cost-effective architecture.
+Resilience and Fault Tolerance.
+12. Additional Considerations
+CAP Theorem: Understanding trade-offs between consistency, availability, and partition tolerance.
+Eventual Consistency: When and how to use it.
+Real-Time Data Processing: Streaming data, real-time analytics.
+Proxies and Reverse Proxies: Use cases, differences.
+Data Lakes vs. Data Warehouses.
+13. System Design Best Practices
+Documentation: Clear and concise documentation of system components.
+Code Review and Testing: Best practices in testing and reviewing system design.
+Iterative Design: Importance of iteration in system design.
+14. Mock Interviews
+Mock Design Sessions: Practice with peers or mentors.
+Feedback: Incorporate feedback from mock interviews to improve.
+
